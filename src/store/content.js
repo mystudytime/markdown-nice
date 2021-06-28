@@ -61,6 +61,7 @@ if (!window.localStorage.getItem(THEME_LIST)) {
     THEME_LIST,
     JSON.stringify([
       {themeId: "normal", name: "默认主题", css: TEMPLATE.normal},
+      {themeId: "画手", name: "画手", css: TEMPLATE.huashou},
       {themeId: "custom", name: "自定义", css: TEMPLATE.custom},
     ]),
   );

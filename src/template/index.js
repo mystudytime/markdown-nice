@@ -1,5 +1,7 @@
 import custom from "./markdown/custom";
 import normal from "./markdown/normal";
+import huashou from "./markdown/huashou";
+import jikehei from "./markdown/jikehei";
 
 import content from "./content.md";
 
@@ -22,6 +24,8 @@ import basic from "./basic";
 export default {
   basic,
   normal,
+  huashou,
+  jikehei,
   custom,
   code: {
     atomOneDark,
